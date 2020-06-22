@@ -18,6 +18,7 @@ namespace QLBANRUOU.Controllers
         {
             return data.RUOUs.OrderByDescending(a => a.NgayCapNhat).ToList();
         }
+        //edit controller
         public ActionResult Index(int? page)
         {
             int pageSize = 8;
