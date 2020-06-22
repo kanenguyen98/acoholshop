@@ -15,6 +15,7 @@ namespace QLBANRUOU.Controllers
         {
             return View();
         }
+        //dang ky
         public ActionResult Dangky()
         {
             return View();

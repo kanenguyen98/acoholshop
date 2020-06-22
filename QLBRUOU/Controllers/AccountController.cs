@@ -27,7 +27,7 @@ namespace QLBRUOU.Controllers
             UserManager = userManager;
             SignInManager = signInManager;
         }
-
+        //sign in
         public ApplicationSignInManager SignInManager
         {
             get
